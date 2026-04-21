@@ -3,6 +3,9 @@ import "./globals.css";
 import Navbar from "@/components/ui/Navbar";
 
 export const metadata: Metadata = {
+  icons: {
+  icon: "/favicon.svg",
+},
   title: "VirtuCare — Virtual Healthcare",
   description: "Book appointments with top doctors, anytime, anywhere.",
 };
